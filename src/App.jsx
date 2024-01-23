@@ -16,7 +16,7 @@ const [quote, setQuote] = useState(sentence);
 const [bgImgFondo, setBgImgFondo] = useState(bgIndex);
 
 const bgStyle = {
-  backgroundImage: `url('../src/assets/fondo${bgImgFondo}.jpg')`,
+  backgroundImage: `url('../fondo${bgImgFondo}.jpg')`,
 }
 
   return (
